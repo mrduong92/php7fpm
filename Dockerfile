@@ -3,9 +3,6 @@ FROM php:7.1-fpm
 MAINTAINER mrduong92, mrduong.92@gmail.com
 
 RUN apt-get update && apt-get install -y \
-    wget \
-
-RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     libjpeg62-turbo-dev \ 
     libmcrypt-dev \ 
